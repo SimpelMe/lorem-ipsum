@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="author" content="Simpel">
+    <meta name="copyright" content="MIT 2021 Simpel">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes user-scalable=no">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Lorem Ipsum</h1>
+        <a id="logo" class="cursordefault" href="/"><img src="../Simpel.png" alt="simpel icon" height="48" width="48"></a>
+        <a id="github" href="https://github.com/SimpelMe/lorem-ipsum" target="_blank" title="watch source code">
+          <img id="github-cat" src="../github-cat-white.png" alt="github logo">
+        </a>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <div class="buttons" >
+          <label for="characters">Number of characters:</label>
+          <input id="characters" type="number" value="1000" onchange="trimLorem(this.value)">
+        </div>
+        <div class="buttons">
+          <label for="paragraphs">Size of paragraphs:</label>
+          <select id="paragraphs" onchange="paraLorem(this.value)" title="Size of paragraphs in characters">
+            <option value="none">none</option>
+            <option value="small">small (150 - 450)</option>
+            <option value="middle">middle (450 - 750)</option>
+            <option value="big">big (750 - 1050)</option>
+          </select>
+        </div>
+        <div class="buttons">
+          <label class="checkboxlabel" for="fixedlength">Fixed line length:</label>
+          <input type="checkbox" id="fixedlength" onchange="fixLine()">
+        </div>
+        <div class="buttons">
+          <label id="labellinechars" for="linechars" class="disablelabel">Characters per line:</label>
+          <input id ="linechars" type="number" value="80" onchange="fixChars(this.value)" disabled>
+        </div>
+        <div class="buttons">
+          <button type="button" onclick="copyLorem()">Copy &#34;Lorem Ipsum&#34;</button>
+        </div>
+      </form>
+      <div id="loremipsum"></div>
+      <p class="source">Text source: <a href="https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus" target="_blank">https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus</a></p>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
