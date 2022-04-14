@@ -1,27 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex,nofollow">
-    <meta name="referrer" content="no-referrer">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-    <meta name="author" content="Simpel">
-    <meta name="copyright" content="MIT 2021 Simpel">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes user-scalable=no">
-    <title>Lorem Ipsum</title>
+    <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav>
-        <a id="logo" class="cursordefault" href="/"><img src="../Simpel.png" alt="simpel icon" height="48" width="48"></a>
-        <h1>Lorem Ipsum</h1>
-        <a id="github" href="https://github.com/SimpelMe/lorem-ipsum" target="_blank" title="watch source code">
-          <img id="github-cat" src="../github.svg" alt="github logo">
-        </a>
-      </nav>
+      <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/header.php"; ?>
     </header>
     <main>
       <form>
