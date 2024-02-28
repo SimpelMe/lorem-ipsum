@@ -9,7 +9,7 @@ var loremIpsumStyledTemp;
 
 function readLorem() {
   var rawFile = new XMLHttpRequest();
-  var url = "https://simpel.cc/lorem/loremipsum.txt";
+  var url = "./loremipsum.txt";
   rawFile.open("GET", url, true);
   rawFile.onreadystatechange = function() {
     if (rawFile.readyState === 4) {

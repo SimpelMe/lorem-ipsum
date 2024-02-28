@@ -1,64 +1,13 @@
 body {
-  min-height: 50vh;
-  font-family: helvetica, Arial, sans-serif;
-  font-size: 2vmin;
-  background-color: #555;
-  color: white;
-  margin: 3vmin 4vmin 2vmin 4vmin;
-}
-
-/* iPad portait */
-@media (max-width: 768px) {
-  body {
-    font-size: 3vmin;
-  }
-}
-
-/* iPhone landscape only */
-@media (max-width: 568px) {
-  body {
-    font-size: 4vmin;
-  }
-}
-
-/* iPhone portait only */
-@media (max-width: 320px) {
-  body {
-    font-size: 4vmin;
-  }
-}
-
-*:focus {
-  outline: 2px solid white;
-  outline-offset: 2px;
-}
-
-a {
-  color: #ffffff;
-  text-decoration: none;
+  font-size: 2em;
 }
 
 header {
-  margin-bottom: 1.5em;
+  margin-bottom:1.5em
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  column-gap: 0.7em;
-}
-
-h1 {
-  font-size: 1.5em;
-  margin: 0;
-}
-
-#github {
-  margin-left: auto;
-}
-
-#github-cat {
-  height: 1.5em;
+main {
+  font-size: .75em;
 }
 
 form {
@@ -134,7 +83,6 @@ button {
 }
 
 #loremipsum {
-  font-size: larger;
   max-width: calc(100vw - 8vmin - 24px);
   margin: 2vmin calc(0vmin + 12px) 4vmin calc(0vmin + 12px);
   outline: 2px solid #fff;

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
   </head>
   <body>
     <header>
@@ -39,5 +39,5 @@
       <p class="source">Text source: <a href="https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus" target="_blank">https://la.wikisource.org/wiki/De_finibus_bonorum_et_malorum/Liber_Primus</a></p>
     </main>
   </body>
-  <script src="script.js"></script>
+  <script src="script.min.js"></script>
 </html>
