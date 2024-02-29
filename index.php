@@ -12,7 +12,7 @@
       <form>
         <div class="buttons" >
           <label for="characters">Number of characters:</label>
-          <input id="characters" type="number" value="1000" onchange="trimLorem(this.value)">
+          <input id="characters" type="number" value="1000" oninput="trimLorem(this.value)">
         </div>
         <div class="buttons">
           <label for="paragraphs">Size of paragraphs:</label>
