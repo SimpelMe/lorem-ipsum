@@ -83,10 +83,8 @@ button {
 }
 
 #loremipsum {
-  max-width: calc(100vw - 8vmin - 24px);
-  margin: 2vmin calc(0vmin + 12px) 4vmin calc(0vmin + 12px);
-  outline: 2px solid #fff;
-  outline-offset: 10px;
+  border: 2px solid #fff;
+  padding: 0.5em;
 }
 
 .source a {
